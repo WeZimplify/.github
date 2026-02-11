@@ -6,30 +6,37 @@
     </linearGradient>
   </defs>
   <style>
-    .bg-dark { fill: #0d1117; }
-    .bg-light { fill: #ffffff; }
-    .text-gradient { fill: url(#limeGradient); }
-    .text-dark { fill: #c8e64a; }
-    .text-light { fill: #1a7f37; }
-
     @media (prefers-color-scheme: dark) {
       .bg { fill: #0d1117; }
-      .ascii-text { fill: url(#limeGradient); }
+      .we-text { fill: url(#limeGradient); }
+      .zimplify-text { fill: #f0f6fc; }
     }
     @media (prefers-color-scheme: light) {
       .bg { fill: #ffffff; }
-      .ascii-text { fill: #1a7f37; }
+      .we-text { fill: #a8d838; }
+      .zimplify-text { fill: #1f2328; }
     }
   </style>
 
   <rect class="bg" width="100%" height="100%" fill="#0d1117"/>
 
-  <text class="ascii-text" fill="url(#limeGradient)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
-    <tspan x="20" y="35">██╗    ██╗███████╗███████╗██╗███╗   ███╗██████╗ ██╗     ██╗███████╗██╗   ██╗</tspan>
-    <tspan x="20" y="55">██║    ██║██╔════╝╚══███╔╝██║████╗ ████║██╔══██╗██║     ██║██╔════╝╚██╗ ██╔╝</tspan>
-    <tspan x="20" y="75">██║ █╗ ██║█████╗    ███╔╝ ██║██╔████╔██║██████╔╝██║     ██║█████╗   ╚████╔╝ </tspan>
-    <tspan x="20" y="95">██║███╗██║██╔══╝   ███╔╝  ██║██║╚██╔╝██║██╔═══╝ ██║     ██║██╔══╝    ╚██╔╝  </tspan>
-    <tspan x="20" y="115">╚███╔███╔╝███████╗███████╗██║██║ ╚═╝ ██║██║     ███████╗██║██║        ██║   </tspan>
-    <tspan x="20" y="135"> ╚══╝╚══╝ ╚══════╝╚══════╝╚═╝╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝╚═╝        ╚═╝   </tspan>
+  <!-- WE in lime -->
+  <text class="we-text" fill="url(#limeGradient)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+    <tspan x="20" y="35">██╗    ██╗███████╗</tspan>
+    <tspan x="20" y="55">██║    ██║██╔════╝</tspan>
+    <tspan x="20" y="75">██║ █╗ ██║█████╗  </tspan>
+    <tspan x="20" y="95">██║███╗██║██╔══╝  </tspan>
+    <tspan x="20" y="115">╚███╔███╔╝███████╗</tspan>
+    <tspan x="20" y="135"> ╚══╝╚══╝ ╚══════╝</tspan>
+  </text>
+
+  <!-- ZIMPLIFY in black/white -->
+  <text class="zimplify-text" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" xml:space="preserve">
+    <tspan x="172" y="35">███████╗██╗███╗   ███╗██████╗ ██╗     ██╗███████╗██╗   ██╗</tspan>
+    <tspan x="172" y="55">╚══███╔╝██║████╗ ████║██╔══██╗██║     ██║██╔════╝╚██╗ ██╔╝</tspan>
+    <tspan x="172" y="75">  ███╔╝ ██║██╔████╔██║██████╔╝██║     ██║█████╗   ╚████╔╝ </tspan>
+    <tspan x="172" y="95"> ███╔╝  ██║██║╚██╔╝██║██╔═══╝ ██║     ██║██╔══╝    ╚██╔╝  </tspan>
+    <tspan x="172" y="115">███████╗██║██║ ╚═╝ ██║██║     ███████╗██║██║        ██║   </tspan>
+    <tspan x="172" y="135">╚══════╝╚═╝╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝╚═╝        ╚═╝   </tspan>
   </text>
 </svg>
